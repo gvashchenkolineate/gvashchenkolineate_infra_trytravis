@@ -1,0 +1,37 @@
+# IDE internal files
+.project
+.sw[po]
+.DS_Store
+.vscode
+.idea
+
+# Packer custom vars
+variables.json
+
+# Terraform internal files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+
+# Ansible tmp files
+*.retry
+# Ansible community roles
+jdauphant.nginx
+
+# Vagrant & Molecule
+.vagrant/
+*.log
+*.pyc
+.molecule
+.cache
+.pytest_cache
+
+# Python virtual env
+venv/
+
+*.tar
+*.pub
+credentials.json
+google_compute_engine
